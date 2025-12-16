@@ -1,0 +1,57 @@
+/* 기본 스타일 */
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00FF00;
+    padding: 20px;
+    margin: 0;
+}
+
+.terminal {
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid #00FF00;
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.year {
+    font-size: 20px;
+}
+
+.chat-box {
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: black;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input:focus {
+    outline: none;
+}
