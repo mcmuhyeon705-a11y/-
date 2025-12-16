@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Again 2002</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="header">
+            <span class="year">Again 2002</span>
+        </div>
+        <div class="chat-box" id="chatBox"></div>
+        <div class="input-box">
+            <input type="text" id="nickname" placeholder="닉네임을 입력하세요" />
+            <input type="text" id="messageInput" placeholder="메시지를 입력하세요" onkeyup="sendMessage(event)" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
